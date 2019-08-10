@@ -15,11 +15,10 @@ function iLoveTheBeatles(number) {
  } while (number < 15);
  return array
 }
-
-function johnLennonFacts() {
-  var facts = ["He was the last Beatle to learn to drive" , "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
+ var facts = ["He was the last Beatle to learn to drive" , "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
   var i = 0
   var array = []
+function johnLennonFacts() {
   while(i < facts.length) {
     array.push(facts[i] + "!!!");
   }
