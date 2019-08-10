@@ -18,9 +18,9 @@ function iLoveTheBeatles(number) {
  var facts = ["He was the last Beatle to learn to drive" , "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
   var i = 0
   var array = []
-function johnLennonFacts() {
+function johnLennonFacts(facts) {
   while() {
-    array.push(facts[i] + "!!!");
+    array.push(facts + "!!!");
   }
   return array
 }
